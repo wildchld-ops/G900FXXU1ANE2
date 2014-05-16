@@ -14,7 +14,7 @@
     <bool name="config_isDefaultSvoiceLaunched">true</bool>
     <bool name="config_isWaterRippleEnabled">true</bool>
     <bool name="config_is_JBP_Upgrade">false</bool>
-    <bool name="config_isWaterInkEnabled">false</bool>
+    <bool name="config_isWaterInkEnabled">true</bool>
     <bool name="config_isWaterInkLCD">true</bool>
     <bool name="restrictCPU_Clock_Watercolor">false</bool>
     <bool name="restrictGPU_Freq_Watercolor">false</bool>
