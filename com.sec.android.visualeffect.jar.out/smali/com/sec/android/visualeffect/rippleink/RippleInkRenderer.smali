@@ -4596,15 +4596,11 @@
 
     const/16 v16, 0x0
 
-    move-object/from16 v0, p0
+    move/from16 v0, p2
 
-    iget v2, v0, Lcom/sec/android/visualeffect/rippleink/RippleInkRenderer;->mScreenWidth:I
+    move/from16 v1, p3
 
-    move-object/from16 v0, p0
-
-    iget v3, v0, Lcom/sec/android/visualeffect/rippleink/RippleInkRenderer;->mScreenHeight:I
-
-    if-le v2, v3, :cond_5
+    if-le v0, v1, :cond_5
 
     const/4 v2, 0x1
 
